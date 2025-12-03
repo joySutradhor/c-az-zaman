@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Barlow";
+	src: url("./assets/fonts/Barlow.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./assets/fonts/Inter.woff") format("woff");
+}
+
+@layer components {
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		font-family: "Lexend";
+		background-color: #ffffff;
+	}
+
+	.sectionGap {
+		@apply px-[30px] md:px-[32px] lg:px-[60px]  xl:px-[100px] 2xl:px-[150px]
+    mt-[60px]  md:mt-[80px] 
+      lg:mt-[80px]
+     xl:mt-[100px]
+      2xl:mt-[100px];
+	}
+
+	.sectionSliderGap {
+		@apply mt-[60px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+    2xl:mt-[100px];
+	}
+
+	.sectionTop {
+		@apply mt-[60px]  md:mt-[80px] 
+      lg:mt-[80px]
+     xl:mt-[100px]
+      2xl:mt-[100px];
+	}
+
+	.footerMenuText {
+		@apply text-[14px] leading-[21px]  
+    md:text-[14px] md:leading-[21px] 
+    lg:text-[14px] lg:leading-[23px]   
+    xl:text-[14px] xl:leading-[21px]  
+    2xl:text-[14px] 2xl:leading-[21px] 
+    md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]
+    font-Inter font-normal text-[#FFFFFF]/[.60];
+	}
+
+	.copyWritePara {
+		@apply 2xl:text-[16px] 2xl:leading-[24px] 
+    xl:text-[14px] xl:leading-[27px] 
+    lg:text-[14px] lg:leading-[27px] 
+    md:text-[12px] md:leading-[27px] 
+    font-normal text-primaryColor font-Inter;
+	}
+
+	.footerHeaderLogoText {
+		@apply text-[14px] leading-[21px]  
+    md:text-[14px] md:leading-[21px] 
+    lg:text-[14px] lg:leading-[23px]   
+    xl:text-[14px] xl:leading-[21px]  
+    2xl:text-[14px] 2xl:leading-[21px] 
+    md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]
+    font-Inter font-normal text-[#FFFFFF]/[.60];
+	}
+
+	.footerMenuTextTitle {
+		@apply text-[20px] leading-[30px]  pb-[15px] 
+    md:text-[20px] md:leading-[30px]  
+    /* ========== */
+    lg:text-[20px] lg:leading-[30px]   
+    /* ========== */
+    xl:text-[20px] xl:leading-[30px]   
+    /* ========== */
+    2xl:text-[20px] 2xl:leading-[30px] 
+    /* ========== */
+
+    md:pb-[20px] lg:pb-[20px] xl:pb-[20px] 2xl:pb-[20px]
+    /* ========== */
+    font-Barlow font-bold text-[#FFFFFF];
+	}
+
+	.footerLogoparent {
+		@apply h-[46px] w-[152px];
+	}
+
+	.largeScreenMenu {
+		@apply lg:px-[60px] lg:pt-[20px] 
+    /* ========= */ 
+    xl:px-[100px] xl:pt-[25px] 
+    /* ========= */
+    2xl:px-[150px] 2xl:pt-[25px] 
+    /* ========= */
+    flex justify-between items-center;
+	}
+
+	.sectionPadding {
+		@apply pt-[60px] px-[30px] 
+     md:pt-[80px] md:px-[32px]  
+     lg:px-[60px] lg:pt-[80px] 
+     xl:px-[100px] xl:pt-[100px] 
+     2xl:px-[150px] 2xl:pt-[100px];
+	}
+
+	.section {
+		@apply pt-[60px]  
+     md:pt-[80px] 
+      lg:pt-[80px] 
+      xl:pt-[100px] 
+      2xl:pt-[100px];
+	}
+
+	.navbarLeftRightSpace {
+		@apply px-[28px] py-[12px] 
+    /* -------- */
+    md:py-[25px] md:px-[50px];
+	}
+
+	.headerLogo {
+		@apply h-[22px] w-max
+    md:h-[30px]
+    lg:h-[35px]
+    xl:h-[55px]
+    2xl:h-[55px];
+	}
+
+	@supports (-webkit-touch-callout: none) {
+		.headerLogo {
+			max-width: 180px !important; /* Override only in Safari */
+		}
+	}
+
+	.mobileMenuParent {
+		@apply pt-[25px] text-[14px]   
+    /* ======== */
+    md:pt-[30px] md:text-[16px]
+    /* ======== */
+    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:gap-x-[20px]
+    /* ======== */
+    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:gap-x-[30x]
+    2xl:pt-[0px] 2xl:text-[18px] 2xl:flex 2xl:list-none 2xl:text-black 2xl:gap-x-[45px]
+    /* ============ */
+    font-Inter font-medium w-full;
+	}
+
+	.heroHead {
+		@apply text-[35px] leading-[40px]
+    md:text-[56px] md:leading-[66px]
+     font-Barlow font-bold;
+	}
+
+	.menuHead {
+		@apply text-[18px] leading-[21px]
+     font-Barlow font-semibold;
+	}
+
+	.heroPara {
+		@apply text-[16px] leading-[24px] font-Inter font-normal;
+	}
+
+	.chooseNumber {
+		@apply text-[28px] leading-[42px] font-semibold font-Inter text-[#000000CC];
+	}
+
+	.globalBtn {
+		@apply px-[10px] py-[8px] text-white hover:text-primaryColor
+    text-[18px] leading-[26px] flex justify-center items-center gap-[10px] 
+     font-Inter font-medium;
+	}
+
+	.globalBtnDiv {
+		@apply  flex justify-center items-center rounded-[4px] bg-primaryColor border border-transparent
+     hover:border hover:border-primaryColor hover:text-[#fff] hover:bg-transparent text-sm;
+	}
+
+	.testmonialName {
+		@apply text-[18px] leading-[27px] text-[#131212] font-medium  font-Inter;
+	}
+
+	.testmonialRole {
+		@apply text-[14px] leading-[21px] text-[#131212]/[.6] font-normal  font-Inter;
+	}
+
+	.testmonialFeedback {
+		@apply text-[16px] leading-[24px] text-[#131212]/[.6] font-normal  font-Inter;
+	}
+
+	.globalHead {
+		@apply text-[30px] leading-[40px]
+    md:text-[48px]  md:leading-[72px]  font-semibold font-Barlow;
+	}
+
+	.portfolioHoverText {
+		@apply text-[22px] leading-[28px] font-Inter;
+	}
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.animate-marquee {
+	animation: marquee 600s linear infinite;
+}
