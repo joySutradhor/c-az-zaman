@@ -78,11 +78,11 @@ const HeroSection = () => {
       >
         <div className="hidden lg:block">
           <div className="flex items-center mt-[12px] ">
-            <div className="w-[120px] h-[1px] bg-gray-300"></div>
+            <div className="w-[120px] h-[1px] "></div>
             <h1 className="text-[#FFFFFF] pb-[16px] heroHead  text-center mx-4">
               {title}
             </h1>
-            <div className="w-[120px] h-[1px] bg-gray-300"></div>
+            <div className="w-[120px] h-[1px] "></div>
           </div>
         </div>
 
