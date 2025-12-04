@@ -1,30 +1,33 @@
 import { useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import { Link } from "react-router-dom";
-import { products } from "../../Shared/data/Data";
+import { ProductsDataArray } from "../../Shared/data/ProdcutsDataArray";
+import { AiOutlineClose } from "react-icons/ai";
 
 const AllProducts = () => {
-  // const [hoveredCard, setHoveredCard] = useState(null);
-  const [activeCategory, setActiveCategory] = useState("All"); // State for selected category
+  const [activeCategory, setActiveCategory] = useState("All");
+  const [selectedProduct, setSelectedProduct] = useState(null); // For modal
 
-  // Define categories
   const categories = [
     "All",
     "Shower Enclosure",
     "Toilet Partition",
+    "Track Socket",
     "Lighting Solution",
+    "Hotel Item",
+    "Hospital Item",
     "Office Furniture",
+    "Chair Item",
     "Interior Work",
-    "Assembly Work",
-    "Air diffuser",
-    "Towel heating rack",
+    "Towel Heating Rack",
+
+    // "Assembly Work",
+    // "Air diffuser",
   ];
 
-  // Filter products based on active category
   const filteredProducts =
     activeCategory === "All"
-      ? products
-      : products.filter((product) => product.name === activeCategory);
+      ? ProductsDataArray
+      : ProductsDataArray.filter((product) => product.name === activeCategory);
 
   return (
     <div className="sectionGap">
@@ -32,7 +35,7 @@ const AllProducts = () => {
       <h2 className="globalHead text-center mb-[35px]">Our Products</h2>
 
       {/* Category Filter Buttons */}
-      <div className="flex flex-wrap  gap-2 md:gap-4 mb-8 font-Inter">
+      <div className="flex flex-wrap gap-2 md:gap-4 mb-8 font-Inter">
         {categories.map((category) => (
           <button
             key={category}
@@ -49,28 +52,73 @@ const AllProducts = () => {
       </div>
 
       {/* Product Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-[50px]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-[50px]">
         {filteredProducts.map((item) => (
-          <div key={item.id} className="bg-gray-100 p-5 rounded-xl ">
-            <div className="">
-              <img
-                src={item?.image}
-                className="h-[30vh] w-full rounded-md border"
-              ></img>
-            </div>
+          <div
+            key={item.id}
+            className="bg-gray-100 p-5 rounded-xl cursor-pointer"
+            onClick={() => setSelectedProduct(item)} // Open modal
+          >
+            <img
+              src={item?.image}
+              className="h-[40vh] w-full rounded-md object-cover"
+              alt={item.name}
+            />
             <div className="flex justify-between pt-5">
-              <div className=" ">
-                <p className="portfolioHoverText font-Inter text-black/75">
-                  {item.name}
-                </p>
-              </div>
-              <div className="text-black/75 p-2 rounded-full cursor-pointer bg-primaryColor transition">
+              <p className="portfolioHoverText font-Inter text-black/75">
+                {item.name}
+              </p>
+              <div className="text-black/75 p-2 rounded-full bg-primaryColor transition">
                 <FiArrowUpRight size={20} />
               </div>
             </div>
           </div>
         ))}
       </div>
+
+      {/* Modal */}
+      {selectedProduct && (
+        <div
+          className="fixed inset-0 bg-black/50 flex justify-center items-center z-50"
+          onClick={() => setSelectedProduct(null)}
+        >
+          <div
+            className="bg-white p-8 rounded-xl max-w-3xl w-full relative"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="absolute top-3 right-3 text-xl font-bold"
+              onClick={() => setSelectedProduct(null)}
+            >
+              <AiOutlineClose className="text-red-500 cursor-pointer" />
+            </button>
+
+            <div className="grid grid-cols-2 gap-5 ">
+              <div>
+                <img
+                  src={selectedProduct.image}
+                  alt={selectedProduct.name}
+                  className="w-full h-64 object-cover rounded-md mb-4"
+                />
+              </div>
+              <div>
+                <h3 className="portfolioHoverText font-bold text-black/80 mb-2">
+                  {selectedProduct.title}
+                </h3>
+                <p className="mb-2 text-gray-700">
+                  {selectedProduct.description}
+                </p>
+                <p className="mb-1">
+                  <strong>Size:</strong> {selectedProduct.size}
+                </p>
+                <p>
+                  <strong>Colors:</strong> {selectedProduct.color.join(", ")}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
