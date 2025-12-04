@@ -4,7 +4,7 @@ const PortfolioBanner = () => {
 			{/* Background Image */}
 			<div
 				style={{
-					backgroundImage: `url("/pBanner.jpg")`,
+					backgroundImage: `url("/PortfolioBanner.jpg")`,
 				}}
 				className="bg-no-repeat  bg-center bg-cover w-full h-[236px] md:h-[472px] transition-all duration-500 ease-in-out"
 			>

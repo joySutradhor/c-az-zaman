@@ -102,7 +102,7 @@ const HeroSection = () => {
             </Link>
           </div>
           <div className="globalBtnDiv mx-auto">
-            <a href="/test.pdf" download>
+            <a href="/Authentic Zaman Company Profile.pdf" download>
               <button className="globalBtn text-nowrap">
                 {buttonText2} <FaDownload />
               </button>

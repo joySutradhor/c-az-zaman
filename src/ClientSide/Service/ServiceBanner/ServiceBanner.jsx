@@ -4,7 +4,7 @@ const ServiceBanner = () => {
 			{/* Background Image */}
 			<div
 				style={{
-					backgroundImage: `url("./sBanner.jpg")`,
+					backgroundImage: `url("./ServiceBanner.png")`,
 				}}
 				className="bg-no-repeat  bg-center bg-cover w-full h-[236px] md:h-[472px] transition-all duration-500 ease-in-out"
 			>
