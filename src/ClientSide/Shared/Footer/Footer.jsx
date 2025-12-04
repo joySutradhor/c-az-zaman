@@ -133,7 +133,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              Dhaka Address : Shyamoli Square (Level-8), Mirpur Road, Dhaka,
+              <span className="text-primaryColor">Dhaka Address: </span>Shyamoli Square (Level-8), Mirpur Road, Dhaka,
               Bangladesh
             </a>
             <a
@@ -142,7 +142,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              Chaina Address : Room H, 25th Floor, Development Building, 13
+              <span className="text-primaryColor">China Address: </span>Room H, 25th Floor, Development Building, 13
               Huayuan East Road, Chancheng District, Foshan City
             </a>
           </div>

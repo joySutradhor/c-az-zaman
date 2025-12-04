@@ -268,7 +268,7 @@ export const ProductsDataArray = [
   {
     id: 24,
     name: "Track Socket",
-    image: "/products/track/P-6.png",
+    image: "/products/track/p-6.png",
     title: "Modular Track Socket System",
     description:
       "Customizable sliding track socket system for modern home and office use.",
@@ -279,7 +279,7 @@ export const ProductsDataArray = [
   {
     id: 25,
     name: "Track Socket",
-    image: "/products/track/P-7.png",
+    image: "/products/track/p-7.png",
     title: "Modular Track Socket System",
     description:
       "Customizable sliding track socket system for modern home and office use.",
@@ -290,7 +290,7 @@ export const ProductsDataArray = [
   {
     id: 26,
     name: "Track Socket",
-    image: "/products/track/P-8.png",
+    image: "/products/track/p-8.png",
     title: "Modular Track Socket System",
     description:
       "Customizable sliding track socket system for modern home and office use.",
@@ -301,7 +301,7 @@ export const ProductsDataArray = [
   {
     id: 27,
     name: "Track Socket",
-    image: "/products/track/P-9.png",
+    image: "/products/track/p-9.png",
     title: "Modular Track Socket System",
     description:
       "Customizable sliding track socket system for modern home and office use.",
