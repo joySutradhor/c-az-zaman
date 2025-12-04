@@ -133,7 +133,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              Shyamoli Square (Level-8), Mirpur Road, Dhaka, Bangladesh
+              Dhaka Address : Shyamoli Square (Level-8), Mirpur Road, Dhaka,
+              Bangladesh
             </a>
             <a
               href="#"
@@ -141,8 +142,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              Room H, 25th Floor, Development Building, 13 Huayuan East Road,
-              Chancheng District, Foshan City
+              Chaina Address : Room H, 25th Floor, Development Building, 13
+              Huayuan East Road, Chancheng District, Foshan City
             </a>
           </div>
         </div>
