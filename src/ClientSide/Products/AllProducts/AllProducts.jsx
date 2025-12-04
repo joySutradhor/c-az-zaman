@@ -83,7 +83,7 @@ const AllProducts = () => {
           onClick={() => setSelectedProduct(null)}
         >
           <div
-            className="bg-white p-5 lg:p-8 rounded-xl max-w-3xl w-full relative mx-5 lg:mx-0"
+            className="bg-white p-5 lg:p-8 rounded-xl max-w-4xl w-full relative mx-5 lg:mx-0"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -98,7 +98,7 @@ const AllProducts = () => {
                 <img
                   src={selectedProduct.image}
                   alt={selectedProduct.name}
-                  className="w-full h-64 object-cover rounded-md mb-4"
+                  className="w-full h-[40vh] object-cover rounded-md mb-4"
                 />
               </div>
               <div>

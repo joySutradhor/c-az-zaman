@@ -187,7 +187,7 @@ const Modal = ({ service, isOpen, onClose }) => {
           </button>
         </div>
 
-        <div className="grid grid-cols-[40%__60%] gap-[25px] lg:gap-[50px] justify-center  mb-5">
+        <div className="grid xl:grid-cols-[40%__60%] gap-[25px] lg:gap-[50px] justify-center  mb-5">
           <img
             src={service.image}
             alt={service.title}
