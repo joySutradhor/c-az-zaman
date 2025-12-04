@@ -133,8 +133,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              Dhaka Address: Shyamoli Square (Level-8), Mirpur Road, Dhaka,
-              Bangladesh
+              Shyamoli Square (Level-8), Mirpur Road, Dhaka, Bangladesh
             </a>
             <a
               href="#"
