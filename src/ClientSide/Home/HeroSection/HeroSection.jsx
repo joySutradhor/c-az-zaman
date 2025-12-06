@@ -30,7 +30,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="relative h-[75vh] lg:h-[90vh] overflow-hidden">
+    <div className="relative h-[75vh] lg:h-[100vh] overflow-hidden">
       {/* Background Images Layer */}
       <div className="absolute inset-0">
         {slides.map((slide, index) => (

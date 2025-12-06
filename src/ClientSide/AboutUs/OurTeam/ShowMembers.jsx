@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 const ShowMembers = ({ members }) => {
 	return (
-		<div className="flex flex-wrap justify-between">
+		<div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 ">
 			{members.map((member) => (
-				<div key={member.id} className="p-4 w-full md:w-1/2 lg:w-1/4 2xl:w-1/6">
+				<div key={member.id} className=" w-full">
 					<div className="h-full flex flex-col items-center text-center">
 						<img
 							alt={member.name}

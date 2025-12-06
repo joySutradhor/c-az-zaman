@@ -16,4 +16,8 @@ export const products = [
 	{ id: 14, name: "Assembly Work", image: "./p/az-41.jpg" },
 	{ id: 15, name: "Air diffuser", image: "./p/air-d.png" },
 	{ id: 16, name: "Towel heating rack", image: "./p/towel.jpg" },
+	{ id: 17, name: "Hotel Item", image: "./p/P-8.png" },
+	{ id: 18, name: "Chair Item", image: "./p/P-1.png" },
+	{ id: 19, name: "Track Socket", image: "./p/P-5.png" },
+	{ id: 20, name: "Hospital Item", image: "./p/p-6.png" },
 ];

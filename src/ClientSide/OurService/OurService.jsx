@@ -20,152 +20,153 @@ const services = [
     description:
       "We offer exceptional shower enclosure designs that flawlessly blends your style, durability, and practicality for your bathroom.",
     image: "./th/ShowerEncloser.jpg",
-
-    // icon: "/service-icon.svg",
     icon: <BiShower size={30} />,
     modalDesc:
-      "Transform your bathroom into a modern, stylish, and functional space with premium shower enclosures from A Z Traders. Designed with both aesthetics and durability in mind, our enclosures are crafted using high-quality stainless steel of 304 grade and clear tempered glass. This combination not only enhances the elegance and contemporary appeal of your bathroom but also guarantees long-lasting performance. The tempered glass used in our products is 100% sustainable and non-toxic, ensuring a safe and environmentally friendly choice for your home.",
+      "Transform your bathroom with our premium shower enclosures designed for elegance, durability, and practicality. Using 304-grade stainless steel and clear tempered glass, each enclosure ensures long-lasting performance, a sleek appearance, and easy maintenance, making your bathroom modern, functional, and visually appealing for years to come.",
     modalDesc2:
-      "At A Z Traders, we understand that every bathroom has its unique layout and design requirements. That’s why we offer a wide range of shower enclosure designs to suit all types of spaces, whether compact, standard, or luxurious. Our team of expert engineers and designers carefully analyze your bathroom setup to provide a tailored solution that maximizes space utilization while maintaining a sleek and modern appearance. Every enclosure is designed to seamlessly integrate into your bathroom, creating a visually appealing and highly functional environment.",
+      "Our extensive range of shower enclosures accommodates compact, standard, and luxury bathroom layouts. Our expert team measures, analyzes, and customizes each design to maximize space, improve accessibility, and maintain a polished aesthetic, ensuring that every enclosure integrates perfectly with your interior while enhancing the overall bathroom functionality and appeal.",
+    modalDesc3:
+      "Every shower enclosure is engineered to combine style, safety, and durability. With precise installation techniques, sustainable materials, and superior finishes, our enclosures provide a luxurious bathroom upgrade. Customers can enjoy enhanced hygiene, aesthetic consistency, and effortless maintenance while adding value and long-term elegance to their residential or commercial bathrooms.",
   },
   {
     id: 2,
     title: "Toilet Partition",
     description:
-      "Interior Concepts & Design Limited provides affordable bathroom partition boards all over Bangladesh. Our toilet partitions are made of quality materials so they last for long. Our experts will visit your site and analyze your toilet partition requirements. Then we will come up with partition boards tailored to meet your specific requirements.",
+      "Interior Concepts & Design Limited provides affordable bathroom partition boards all over Bangladesh. Our toilet partitions are made of quality materials so they last for long.",
     image: "./th/ToiletPartition.jpg",
-
-    // icon: "/service-icon.svg",
     icon: <LuToilet size={30} />,
     modalDesc:
-      "Interior Concepts & Design Limited is a leading provider of high-quality and affordable bathroom partition boards throughout Bangladesh. We specialize in designing and supplying durable toilet partitions that combine functionality, style, and longevity. Our partition boards are made from premium materials to ensure they withstand everyday use while maintaining a sleek and professional appearance.",
+      "Interior Concepts & Design Limited provides high-quality, durable, and affordable toilet partitions throughout Bangladesh. Each partition combines functionality, longevity, and style, crafted from premium materials to withstand heavy daily use while maintaining a professional appearance in offices, schools, hospitals, and public facilities, ensuring reliability and elegance.",
     modalDesc2:
-      "At Interior Concepts & Design Limited, we understand that every space is unique. That’s why our team of experienced experts visits your site to carefully assess your toilet partition requirements. We take precise measurements, consider your design preferences, and evaluate the layout of your facility to ensure our solutions are perfectly tailored to your needs.",
+      "Our team visits your site to assess your unique layout, taking precise measurements and understanding your design preferences. We evaluate the space to recommend tailored partition solutions that maximize functionality, maintain aesthetics, and meet safety standards, ensuring that each installation fits seamlessly and complements the surrounding interior design.",
+    modalDesc3:
+      "We focus on providing low-maintenance, durable partitions that maintain hygiene, organization, and style. Designed for long-term use, our products enhance washroom efficiency, improve user experience, and contribute to professional and visually appealing environments, making them suitable for a wide range of commercial and institutional facilities across Bangladesh.",
   },
   {
     id: 3,
     title: "Lighting Solution",
     description:
-      "Enjoy innovative lighting designs that combine beauty, energy efficiency, and the perfect ambiance for any room with us.",
-    // image: "./trial-images/service-img-4.jpg",
+      "Enjoy innovative lighting designs that combine beauty, energy efficiency, and perfect ambiance for any room.",
     image: "./th/LightingSolution.jpg",
-
-    // icon: "/service-icon.svg",
     icon: <MdOutlineLightMode size={30} />,
     modalDesc:
-      "We provide research based solutions grounded in science and inspired by nature. We extend our services beyond problem-solving. Creating culturally and contextually appropriate responses. Transforming client's story and their vision for built environment into a reality. While educating our clients with new technologies and utilize them as appropriate.",
-
+      "We provide innovative, research-based lighting solutions that enhance spaces while being energy efficient. Inspired by nature and grounded in science, our designs improve aesthetics, functionality, and ambiance. Each solution is carefully crafted to create comfortable, visually appealing environments suitable for homes, offices, or commercial projects of any scale.",
     modalDesc2:
-      "In addition to delivering impactful results, we focus on educating our clients about emerging technologies and innovative practices. We guide them on how to effectively integrate these advancements, ensuring that each project not only meets current standards but also embraces sustainable and forward-thinking approaches. Our mission is to empower clients with knowledge while bringing their aspirations to life through thoughtful and well-researched design solutions.",
+      "We educate our clients about emerging lighting technologies and sustainable practices, helping them integrate solutions that reduce energy consumption while optimizing functionality. By combining aesthetics with performance, our lighting solutions not only illuminate spaces effectively but also support long-term efficiency and adaptability for future requirements.",
+    modalDesc3:
+      "From initial concept to installation, every lighting solution is designed to harmonize with the existing interior. Our focus is on achieving visual comfort, improved energy efficiency, and overall enhancement of the environment, creating spaces that are functional, aesthetically pleasing, and sustainable, tailored to client-specific needs.",
   },
   {
     id: 4,
     title: "Office Furniture",
     description:
-      "We design elegant home interiors and decorations that reflect your personal taste and enhance your living environment.",
+      "We design elegant office interiors and furniture that support productivity, comfort, and modern business needs.",
     image: "./th/OfficeFurniture.jpg",
-
-    // icon: "/service-icon.svg",
     icon: <PiOfficeChair size={30} />,
     modalDesc:
-      "We provide research based solutions grounded in science and inspired by nature. While extending our services beyond problem-solving. We'll create an ambience that belongs to its place, time and people. Optimize efficiencies in all system resources and communications.",
+      "Our office furniture solutions are research-based, designed to improve comfort, productivity, and workflow efficiency. Each piece is carefully crafted to balance aesthetics and ergonomics, providing long-term usability. By combining modern designs with functional considerations, we create workspaces that support employee well-being and enhance operational performance.",
     modalDesc2:
-      "In addition, we prioritize optimizing efficiencies across all systems and resources, including communication, energy, and operational processes. By carefully integrating these efficiencies into every project, we ensure that our designs are not only visually compelling but also practical, sustainable, and functional. Our goal is to deliver solutions that balance innovation, performance, and a sense of belonging for all who experience them.",
+      "We optimize workspace communication, organization, and resource use to enhance functionality and efficiency. By analyzing workflows, layout requirements, and operational needs, we provide furniture and interiors that harmonize with the environment, ensuring employees have the ideal tools and spaces for productive, comfortable, and well-managed office operations.",
+    modalDesc3:
+      "Our furniture solutions focus on durability, style, and ergonomic comfort, integrating seamlessly into modern office interiors. We prioritize adaptability, long-term performance, and aesthetic cohesion, helping businesses maintain professional environments that motivate employees, improve work experience, and contribute to a visually appealing and functional workspace.",
   },
   {
     id: 5,
     title: "Interior work",
     description:
-      "We have expertise in creating modern, sophisticated office interiors that boosts productivity and inspiration  in the workplace.",
+      "We create modern, sophisticated interiors that boost creativity, comfort, and productivity.",
     image: "./th/Interiorwork.png",
-
-    // icon: "/service-icon.svg",
     icon: <MdOutlineHomeWork size={30} />,
     modalDesc:
-      "At Interior Solutions, our services represent our investment in excellence. We pledge to get knee-deep in your interior design, office furniture, hotel furniture & home furniture install or storage systems project and help you create beautifully functional workspaces and specialized work environments. We'll design to your specifications, build to your brand, cater to your success, and ignite your culture and growth.",
+      "At Interior Solutions, we specialize in creating functional and visually stunning interiors for offices, hotels, and homes. Each project is designed to reflect client vision, optimize space, and enhance aesthetic appeal, providing a harmonious and efficient environment tailored to your specific needs and brand identity.",
     modalDesc2:
-      "We design to your exact specifications, build in alignment with your brand identity, and focus on solutions that support your success. Our approach goes beyond aesthetics; we aim to foster a culture of innovation and growth within your spaces. With Interior Solutions, you gain a partner dedicated to transforming your ideas into inspiring, practical, and dynamic environments that leave a lasting impact.",
+      "We develop designs that align with your brand and goals, ensuring interiors support creativity, productivity, and overall satisfaction. Our team manages all aspects of the project, including layout planning, material selection, and implementation, to deliver spaces that are practical, elegant, and inspiring.",
+    modalDesc3:
+      "We prioritize long-term durability, efficiency, and beauty in every project. By carefully combining innovative design, functional optimization, and aesthetic value, we create interiors that are not only visually appealing but also enhance workflow, comfort, and client satisfaction across residential and commercial environments.",
   },
   {
     id: 6,
     title: "Assembly Works",
     description:
-      "We provide precise and durable assembly services for everything from furniture to complex installations.",
-    // image: "./trial-images/service-img-6.jpg",
+      "We provide precise and durable assembly services for furniture, wall coverings, flooring, and more.",
     image: "./th/AssemblyWorks.png",
-
-    // icon: "/service-icon.svg",
     icon: <MdOutlineCable size={30} />,
     modalDesc:
-      "Materials and systems to install resilient wall and floor coverings correctly. The aim of this Technical Notebook is to offer useful guidelines to assist in the correct installation of resilient wall and floor coverings. Wall covering- Wall paper, Top create / texture paint, Flooring -Wooden Floor, Decking wood, Carpet & Vinyl",
+      "Our assembly services ensure precise installation of wall and floor coverings, furniture, and decorative elements. We follow best practices to guarantee durability, proper alignment, and perfect finishes, covering a wide range of materials including wallpapers, textured paints, wooden floors, vinyl, and carpets.",
     modalDesc2:
-      "The guidance includes detailed information for various types of wall and floor coverings, including wallpapers, textured or topcoat paints, wooden flooring, decking, carpets, and vinyl. By addressing the specific requirements of each material, this notebook helps ensure proper installation techniques, long-lasting results, and optimal use of resources. Whether for residential, commercial, or specialized environments, these instructions are designed to support successful and professional installations every time.",
+      "We provide detailed guidelines for installation techniques to ensure optimal use of materials, long-lasting performance, and consistent quality across residential, commercial, and institutional environments. Each project is handled with precision to meet professional standards and client expectations.",
+    modalDesc3:
+      "Our skilled team uses high-quality tools and expertise to deliver flawless assembly results. Every installation is carefully managed to combine aesthetics, functionality, and durability, ensuring spaces remain attractive, safe, and long-lasting while maintaining structural integrity and optimal material performance.",
   },
   {
     id: 7,
     title: "Air diffuser",
     description:
-      "An air diffuser evenly distributes air within a room, enhancing ventilation and maintaining a consistent temperature. Commonly used in HVAC systems, it improves air circulation, reduces noise, and boosts energy efficiency. Suitable for homes and commercial spaces, air diffusers help create a comfortable indoor environment while blending seamlessly with interior designs.",
-    // image: "./trial-images/service-img-6.jpg",
+      "Air diffusers distribute air evenly to improve comfort, ventilation, and temperature balance.",
     image: "./th/Air-d.png",
-
-    // icon: "/service-icon.svg",
     icon: <FiCrosshair size={30} />,
     modalDesc:
-      "An air diffuser evenly distributes air within a room, enhancing ventilation and maintaining a consistent temperature. Commonly used in HVAC systems, it improves air circulation, reduces noise, and boosts energy efficiency. Suitable for homes and commercial spaces, air diffusers help create a comfortable indoor environment while blending seamlessly with interior designs.",
+      "Air diffusers efficiently distribute airflow across indoor spaces, maintaining consistent temperatures and improving ventilation. They help reduce hotspots, maintain comfort, and enhance air circulation, ensuring a healthy, pleasant environment for homes, offices, and commercial facilities, while minimizing noise and energy consumption.",
     modalDesc2:
-      "In addition to functional benefits, air diffusers help reduce noise levels and improve energy efficiency by allowing HVAC systems to operate more effectively. Designed to blend seamlessly with various interior styles, they provide a discreet yet essential solution for maintaining a pleasant indoor atmosphere. Whether in homes, offices, or commercial facilities, air diffusers are key components in creating spaces that are both comfortable and efficient.",
+      "Designed to integrate seamlessly with various interior styles, our air diffusers improve energy efficiency by allowing HVAC systems to operate optimally. They reduce operational costs while providing consistent climate control for occupants and contribute to a sustainable indoor environment.",
+    modalDesc3:
+      "Ideal for residential, commercial, and institutional applications, our diffusers combine aesthetics, functionality, and efficiency. They help maintain indoor comfort, enhance air quality, and contribute to modern, professional, and energy-conscious interiors suitable for a variety of spaces.",
   },
   {
     id: 8,
     title: "Towel heating rack",
     description:
-      "A towel heating rack is a stylish and functional addition to any bathroom, designed to warm and dry towels efficiently. It adds comfort, prevents dampness, and helps reduce mildew. Ideal for modern homes, it also enhances bathroom aesthetics while providing a touch of luxury.",
-    // image: "./trial-images/service-img-6.jpg",
+      "A towel heating rack warms your towels, prevents dampness, and adds a touch of luxury to your bathroom.",
     image: "./th/Towelheatingrack.png",
-
-    // icon: "/service-icon.svg",
     icon: <GiTowel size={30} />,
     modalDesc:
-      "A towel heating rack is a stylish and functional addition to any bathroom, designed to warm and dry towels efficiently. It adds comfort, prevents dampness, and helps reduce mildew. Ideal for modern homes, it also enhances bathroom aesthetics while providing a touch of luxury.",
+      "Our towel heating racks provide warmth, dryness, and comfort while preventing dampness and mildew. Designed for modern bathrooms, they combine convenience and style, creating a more hygienic and comfortable experience every time you step out of the shower or bath.",
     modalDesc2:
-      "Beyond its functional benefits, a towel heating rack adds a touch of modern elegance to your space. Its sleek design complements contemporary bathroom interiors, creating a luxurious and inviting atmosphere. Ideal for modern homes, it combines practicality with style, offering both convenience and aesthetic appeal in one sophisticated solution.",
+      "The sleek and elegant design integrates seamlessly into contemporary bathroom interiors, enhancing aesthetics and usability. They are engineered to provide consistent heating, energy efficiency, and reliable performance, ensuring that towels are always dry and warm for daily use.",
+    modalDesc3:
+      "Perfect for residential and commercial spaces, towel racks add a touch of luxury while promoting hygiene. They are durable, low-maintenance, and visually appealing, providing both functional benefits and a stylish accessory that complements your bathroom design.",
   },
   {
     id: 9,
     title: "Hospital Item",
     description:
-      "Hospital-grade items are designed to ensure hygiene, durability, and functionality in medical environments. They help maintain clean and safe spaces while providing practical solutions for healthcare facilities. Ideal for hospitals, clinics, and care centers, these items support efficiency and reliability in daily operations.",
+      "Hospital-grade items designed for hygiene, durability, and reliable performance in clinical environments.",
     image: "./th/HospitalItem.jpg",
     icon: <GiTowel size={30} />,
     modalDesc:
-      "Our hospital items are carefully selected to meet strict medical standards, ensuring safety, durability, and easy maintenance. Each product is designed to withstand rigorous daily use while supporting a hygienic and functional environment.",
+      "Our hospital items meet strict medical standards for hygiene, safety, and durability. Each product is carefully selected to ensure effective performance in hospitals, clinics, and care centers, providing reliable, long-lasting solutions for healthcare operations and staff efficiency.",
     modalDesc2:
-      "From fixtures and storage solutions to specialized equipment, these hospital items provide both practicality and comfort. They are tailored to create safe, efficient, and organized spaces that enhance healthcare operations and staff performance.",
+      "These items include storage solutions, fixtures, and specialized equipment, all designed to improve workflow and maintain organized, clean, and safe environments. Every product is tested to withstand frequent use in demanding medical settings without compromising quality.",
+    modalDesc3:
+      "From patient care areas to staff workspaces, our hospital-grade items ensure efficiency, reliability, and hygiene. They support healthcare professionals in creating functional, comfortable, and safe environments, enhancing overall operational performance while meeting strict regulatory standards.",
   },
   {
     id: 10,
     title: "Track Socket",
     description:
-      "Track sockets provide a flexible and efficient solution for electrical connections in homes, offices, and commercial spaces. They allow multiple devices to be connected safely along a single track, improving convenience and energy efficiency. Ideal for modern interiors, they combine practicality with sleek design.",
+      "Track sockets offer flexible power solutions with multiple connection points in a sleek, modern design.",
     image: "./th/TrackSocket.jpeg.jpg",
     icon: <GiTowel size={30} />,
     modalDesc:
-      "Our track sockets are designed for safe and reliable power distribution. Easy to install and versatile, they allow multiple devices to be connected along one track, making them ideal for dynamic living and working spaces.",
+      "Track sockets provide a practical solution for safe and reliable power distribution in homes, offices, and commercial spaces. They allow multiple devices to connect along a single track while ensuring electrical safety, durability, and functional efficiency.",
     modalDesc2:
-      "By combining functionality, safety, and aesthetics, track sockets enhance interior layouts without compromising design. They provide a practical solution for managing power needs in homes, offices, and commercial environments efficiently.",
+      "Our track sockets are easy to install and versatile, accommodating changing needs and layouts. They combine functionality and aesthetics, allowing users to manage power connections efficiently without cluttering the space with multiple outlets or cables.",
+    modalDesc3:
+      "Designed for modern interiors, they improve workflow, maintain a clean appearance, and provide convenience for dynamic living and working spaces. These sockets are reliable, durable, and visually integrated into the surrounding design for optimal usability.",
   },
   {
     id: 11,
     title: "Hotel Item",
     description:
-      "Hotel-grade furniture and fixtures are designed to provide comfort, durability, and style in hospitality environments. They enhance guest experience while maintaining functionality and long-lasting performance. Ideal for hotels, resorts, and serviced apartments, these items support a luxurious and efficient stay.",
+      "Hotel-grade items designed for comfort, durability, and elegance in hospitality environments.",
     image: "./th/HotelItem.jpg",
     icon: <GiTowel size={30} />,
     modalDesc:
-      "Our hotel items are carefully crafted to combine elegance and practicality. Each piece is designed to withstand frequent use while providing guests with a comfortable and visually appealing experience.",
+      "Our hotel items are carefully crafted to combine comfort, style, and durability. Each product is designed to withstand daily use while providing guests with a luxurious, practical, and visually appealing experience throughout their stay.",
     modalDesc2:
-      "From furniture to bathroom fixtures, these hotel items enhance interior aesthetics and operational efficiency. They are tailored to create a welcoming, durable, and luxurious environment that meets the high standards of the hospitality industry.",
+      "These items include furniture, fixtures, and bathroom essentials designed for aesthetic appeal, functionality, and operational efficiency. Each piece enhances interiors while supporting the high standards expected in hotels, resorts, and serviced apartments.",
+    modalDesc3:
+      "By combining durability, style, and comfort, our hotel products create welcoming, safe, and long-lasting environments. They enhance guest satisfaction, improve operational workflows, and contribute to a luxurious, elegant, and professional hospitality experience.",
   },
 ];
 
@@ -201,6 +202,9 @@ const Modal = ({ service, isOpen, onClose }) => {
             <p className="heroPara text-[#131212]/[.75]">{service.modalDesc}</p>
             <p className="heroPara text-[#131212]/[.75] mt-2">
               {service.modalDesc2}
+            </p>
+            <p className="heroPara text-[#131212]/[.75] mt-2">
+              {service.modalDesc3}
             </p>
           </div>
         </div>

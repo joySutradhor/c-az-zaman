@@ -20,8 +20,8 @@ const Footer = () => {
             </Link>
           </div>
           <p className="footerHeaderLogoText mb-4 xl:mb-2 md:max-w-[60%] xl:max-w-full 2xl:max-w-[70%]">
-            Authentic Zaman is where your vision comes alive with our thoughtful
-            custom designs.
+            Authentic Zaman is where your vision comes alive through our
+            thoughtful, personalized custom designs. 
           </p>
           <div className="flex gap-2">
             <a
@@ -80,6 +80,9 @@ const Footer = () => {
             <Link to="/portfolio" className="hover:text-primaryColor">
               Portfolio
             </Link>
+            <Link to="/products" className="hover:text-primaryColor">
+              Products
+            </Link>
             <Link to="/contact" className="hover:text-primaryColor">
               Contact Us
             </Link>
@@ -118,8 +121,8 @@ const Footer = () => {
             <a href="tel:+8801817509399" className="hover:text-primaryColor">
               +8801817-509399
             </a>
-            <a href="tel:+8801511509399" className="hover:text-primaryColor">
-              +8801511-509399
+            <a href="tel:+8801711293215" className="hover:text-primaryColor">
+              +8801711-293215
             </a>
             <a
               href="mailto:ashraf@authenticzaman.com"
@@ -133,8 +136,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              <span className="text-primaryColor">Dhaka Address: </span>Shyamoli Square (Level-8), Mirpur Road, Dhaka,
-              Bangladesh
+              <span className="text-primaryColor">Dhaka Address: </span>Shyamoli
+              Square (Level-8), Mirpur Road, Dhaka, Bangladesh
             </a>
             <a
               href="#"
@@ -142,8 +145,9 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-primaryColor"
             >
-              <span className="text-primaryColor">China Address: </span>Room H, 25th Floor, Development Building, 13
-              Huayuan East Road, Chancheng District, Foshan City
+              <span className="text-primaryColor">China Address: </span>Room H,
+              25th Floor, Development Building, 13 Huayuan East Road, Chancheng
+              District, Foshan City
             </a>
           </div>
         </div>
@@ -151,7 +155,23 @@ const Footer = () => {
         {/* Download PDFs */}
         <div className="mb-2">
           <h2 className="footerMenuTextTitle">Download PDF&apos;s</h2>
-          <div className="space-y-2 mt-2 xl:mt-0 flex flex-col md:flex-row md:flex-wrap md:items-baseline md:gap-x-8 footerMenuText">
+          <div className="space-y-2 mt-2 xl:mt-0 flex flex-col  md:items-baseline md:gap-x-8 footerMenuText">
+            <a
+              href="/Authentic Zaman Company Profile.pdf"
+              download
+              className="hover:text-primaryColor"
+              target="_blank"
+            >
+              Our Company Profile
+            </a>
+            <a
+              href="/OurDocument.pdf"
+              download
+              className="hover:text-primaryColor"
+              target="_blank"
+            >
+              Company Documents
+            </a>
             <a
               href="/pdfs/restroom-cubicles.pdf"
               download
@@ -182,7 +202,7 @@ const Footer = () => {
 
       <hr className="border-t border-[#FFFFFF]/[.5] mb-4 absolute inset-x-0 w-full" />
 
-      <div className="py-5 text-primaryColor text-center footerMenuText">
+      <div className="py-5 text-gray-400 text-center footerMenuText">
         <p>
           Copyright © 2025 Authentic Zaman Traders. All Rights Reserved. <br />
           Design & Developed by{" "}
