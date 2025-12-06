@@ -9,10 +9,10 @@ const productDetails = {
     name: "Shower Enclosure",
     description:
       "We are passionate, knowing that people live, work, play and inhabit the spaces and places we imagine and envision for our clients.",
-    mainImage: "/p/az-38.jpg",
+    mainImage: "/Portfolio/ShowerEncloser/8.png",
     sideMedia: [
-      { type: "image", src: "/p/az-37.jpg" },
-      { type: "image", src: "/p/az-39.jpg" },
+      { type: "image", src: "/Portfolio/ShowerEncloser/1.png" },
+      { type: "image", src: "/Portfolio/ShowerEncloser/5.png" },
     ],
     category: "Shower Enclosure",
     location: "Gulshan-1, Dhaka",
@@ -68,7 +68,7 @@ const productDetails = {
     mainImage: "/p/az-25.jpg",
     sideMedia: [
       { type: "video", src: "/p/t-p.mp4" },
-      { type: "image", src: "/p/toilet-p.jpg" },
+      { type: "image", src: "/Portfolio/ToiletPartition/5.png" },
     ],
     category: "Toilet Partition",
     location: "Green Road, Dhaka",
@@ -79,10 +79,10 @@ const productDetails = {
     name: "Toilet Partition",
     description:
       "We are passionate, knowing that people live, work, play and inhabit the spaces and places we imagine and envision for our clients.",
-    mainImage: "/p/az-30.jpg",
+    mainImage: "/Portfolio/ToiletPartition/2.png",
     sideMedia: [
-      { type: "image", src: "/p/az-31.jpg" },
-      { type: "image", src: "/p/az-32.jpg" },
+      { type: "image", src: "/Portfolio/ToiletPartition/2.jpg" },
+      { type: "image", src: "/Portfolio/ToiletPartition/3.png" },
     ],
     category: "Toilet Partition",
     location: "Tongi, Dhaka",
@@ -191,10 +191,13 @@ const productDetails = {
     name: "Assembly Work",
     description:
       "This project involved designing a modern and functional dining area for a large commercial space.",
-    mainImage: "/p/az-41.jpg",
+    mainImage: "/Portfolio/assemble/3.png",
     sideMedia: [
-      { type: "image", src: "/p/az-33.jpg" },
-      { type: "image", src: "/p/az-35.jpg" },
+      { type: "image", src: "/Portfolio/assemble/4.png" },
+      {
+        type: "image",
+        src: "/Portfolio/assemble/5.png",
+      },
     ],
     category: "Assembly Work",
     location: "Gulshan, Dhaka",
@@ -205,13 +208,13 @@ const productDetails = {
     name: "Air diffuser",
     description:
       "An air diffuser evenly distributes air within a room, enhancing ventilation and maintaining a consistent temperature. Commonly used in HVAC systems, it improves air circulation, reduces noise, and boosts energy efficiency. Suitable for homes and commercial spaces, air diffusers help create a comfortable indoor environment while blending seamlessly with interior designs.",
-    mainImage: "/p/a-diff-3.jpg",
+    mainImage: "/Portfolio/Airdiffuser/2.png",
     sideMedia: [
       {
         type: "video",
         src: "https://res.cloudinary.com/dshn2s0tc/video/upload/v1746734863/Air_diffuser-13_ufsfsd.mp4",
       },
-      { type: "image", src: "/p/a-diff-2.jpg" },
+      { type: "image", src: "/Portfolio/Airdiffuser/4.png" },
     ],
     category: "Air diffuser",
     location: "Gulshan, Dhaka",
@@ -222,7 +225,7 @@ const productDetails = {
     name: "Towel heating rack",
     description:
       "A towel heating rack is a stylish and functional addition to any bathroom, designed to warm and dry towels efficiently. It adds comfort, prevents dampness, and helps reduce mildew. Ideal for modern homes, it also enhances bathroom aesthetics while providing a touch of luxury.",
-    mainImage: "/p/t-r-1.jpg",
+    mainImage: "/Portfolio/Towel/5.png",
     sideMedia: [
       { type: "image", src: "/p/t-r-2.jpg" },
       { type: "video", src: "/p/t-rack.mp4" },
@@ -232,19 +235,48 @@ const productDetails = {
     startDate: "5th Feb, 2025",
     endDate: "15th Feb, 2025",
   },
+
   17: {
+    name: "Track Socket",
+    description:
+      "This project involved designing a modern and functional dining area for a large commercial space.",
+    mainImage: "/Portfolio/TrackSocket/2.png",
+    sideMedia: [
+      { type: "image", src: "/Portfolio/TrackSocket/1.png" },
+      { type: "image", src: "/Portfolio/TrackSocket/3.png" },
+    ],
+    category: "Track Socket",
+    location: "Banani, Dhaka",
+    startDate: "5th Mar, 2023",
+    endDate: "15th Jun, 2023",
+  },
+  18: {
     name: "Hotel Item",
     description:
       "This project involved designing a modern and functional dining area for a large commercial space.",
-    mainImage: "/p/az-11.jpg",
+    mainImage: "/Portfolio/HotelItem/2.png",
     sideMedia: [
-      { type: "image", src: "/p/az-10.jpg" },
-      { type: "image", src: "/p/az-12.jpg" },
+      { type: "image", src: "/Portfolio/HotelItem/1.png" },
+      { type: "image", src: "/Portfolio/HotelItem/3.png" },
     ],
     category: "Hotel Item",
-    location: "Gulshan, Dhaka",
-    startDate: "5th Jan, 2023",
-    endDate: "15th March, 2023",
+    location: "Gazipur, Dhaka",
+    startDate: "5th Jul, 2024",
+    endDate: "15th Aug, 2024",
+  },
+  19: {
+    name: "Hospital Item",
+    description:
+      "This project involved designing a modern and functional dining area for a large commercial space.",
+    mainImage: "/Portfolio/HospitalItem/2.png",
+    sideMedia: [
+      { type: "image", src: "/Portfolio/HospitalItem/1.png" },
+      { type: "image", src: "/Portfolio/HospitalItem/3.png" },
+    ],
+    category: "Hospital Item",
+    location: "Rampura, Dhaka",
+    startDate: "15th Jul, 2024",
+    endDate: "5th Aug, 2024",
   },
 };
 
@@ -289,8 +321,25 @@ const PortfolioHero = () => {
                   src={media.src}
                   autoPlay
                   muted
-                  className="w-full h-full object-cover aspect-video"
+                  className="w-full h-full object-cover aspect-video bg-red-50"
+                  
                 />
+
+
+                // <iframe
+                //  src={`${media.src}&title=0&byline=0&portrait=0&badge=0&autoplay=1&controls=0&dnt=1&loop=1&muted=1`}
+                //   autoPlay
+                //   muted
+                //   className="w-full h-full object-cover aspect-video bg-red-50"
+                // />
+
+                // <iframe
+                //   title={logo.name}
+                //   src={`${media.src}&title=0&byline=0&portrait=0&badge=0&autoplay=1&controls=0&dnt=1&loop=1&muted=1`}
+                //   className="aspect-video w-full rounded-lg md:rounded-xl lg:rounded-2xl"
+                //   allowFullScreen
+                //   allow="autoplay;"
+                // ></iframe>
               )}
             </div>
           ))}

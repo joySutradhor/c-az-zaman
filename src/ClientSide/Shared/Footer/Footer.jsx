@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <p className="footerHeaderLogoText mb-4 xl:mb-2 md:max-w-[60%] xl:max-w-full 2xl:max-w-[70%]">
             Authentic Zaman is where your vision comes alive through our
-            thoughtful, personalized custom designs. 
+            thoughtful, personalized custom designs.
           </p>
           <div className="flex gap-2">
             <a
@@ -110,6 +110,21 @@ const Footer = () => {
             </Link>
             <Link to="/portfolio/14" className="hover:text-primaryColor">
               Assembly Works
+            </Link>
+            <Link to="/portfolio/15" className="hover:text-primaryColor">
+              Air diffuser
+            </Link>
+            <Link to="/portfolio/16" className="hover:text-primaryColor">
+              Towel heating rack
+            </Link>
+            <Link to="/portfolio/17" className="hover:text-primaryColor">
+              Track Socket
+            </Link>
+            <Link to="/portfolio/18" className="hover:text-primaryColor">
+              Hotel Item
+            </Link>
+            <Link to="/portfolio/19" className="hover:text-primaryColor">
+              Hospital Item
             </Link>
           </div>
         </div>
