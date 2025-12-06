@@ -19,7 +19,6 @@ const AllPortfolio = () => {
     "Air diffuser",
     "Towel heating rack",
     "Hotel Item",
-    "Chair Item",
     "Track Socket",
     "Hospital Item",
   ];

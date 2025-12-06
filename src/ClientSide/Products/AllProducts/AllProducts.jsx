@@ -15,13 +15,13 @@ const AllProducts = () => {
     "Lighting Solution",
     "Hotel Item",
     "Hospital Item",
+    "Interior Work",
     "Office Furniture",
     "Chair Item",
-    "Interior Work",
     "Towel Heating Rack",
+    "Air diffuser",
 
     // "Assembly Work",
-    // "Air diffuser",
   ];
 
   const filteredProducts =
@@ -53,11 +53,11 @@ const AllProducts = () => {
 
       {/* Product Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-[50px]">
-        {filteredProducts.map((item) => (
+        {filteredProducts.map((item, i) => (
           <div
-            key={item.id}
+            key={i}
             className="bg-gray-100 p-5 rounded-xl cursor-pointer"
-            onClick={() => setSelectedProduct(item)} // Open modal
+            onClick={() => setSelectedProduct(item)} 
           >
             <img
               src={item?.image}
@@ -66,7 +66,7 @@ const AllProducts = () => {
             />
             <div className="flex justify-between pt-5">
               <p className="portfolioHoverText font-Inter text-black/75">
-                {item.name}
+                {item.title}
               </p>
               <div className="text-black/75 p-2 rounded-full bg-primaryColor transition">
                 <FiArrowUpRight size={20} />
@@ -102,13 +102,13 @@ const AllProducts = () => {
                 />
               </div>
               <div>
-                <h3 className="portfolioHoverText font-bold text-black/80 mb-2">
+                <h3 className="portfolioHoverText font-Barlow font-bold text-black/80 mb-2">
                   {selectedProduct.title}
                 </h3>
-                <p className="mb-2 text-gray-700">
+                <p className="mb-2 text-gray-700 font-Inter">
                   {selectedProduct.description}
                 </p>
-                <p className="mb-1">
+                <p className="mb-1 font-Inter">
                   <strong>Size:</strong> {selectedProduct.size}
                 </p>
                 <p>
